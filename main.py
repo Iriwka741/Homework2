@@ -28,9 +28,19 @@
 #else:
    # print("All numbers equals")
    #################################
-number1 = int(input("Enter first number: "))
-number2 = int(input("Enter second number: "))
-number3 = int(input("Enter third number: "))
+#number1 = int(input("Enter first number: "))
+#number2 = int(input("Enter second number: "))
+#number3 = int(input("Enter third number: "))
 
-result = (number1 + number2 + number3)//3
-print(f"Result: {result}")
+#result = (number1 + number2 + number3)//3
+#print(f"Result: {result}")
+###################################
+meters = float(input(" Enter meters: "))
+
+miles = meters / 1609
+inches = meters * 39.370
+yards = meters * 1.09361
+
+print(f"miles: {miles}", )
+print(f"inches: {inches}", )
+print(f"yards: {yards}", )
